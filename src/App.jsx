@@ -3,6 +3,7 @@ import Brands from "./Brands/Brands";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import Header from "./header/Header";
+// import Header from "./header/Header";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
 import WeHelpYou from "./WeHelpYou//WeHelpYou";
@@ -23,7 +24,6 @@ function App() {
       window.removeEventListener("scroll", scrollActive);
     };
   }, []);
-  //////////////////////////////
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
 
