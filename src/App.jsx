@@ -5,7 +5,7 @@ import Footer from "./Footer/Footer";
 import Header from "./header/Header";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
-import WeHelpYou from "./WeHelpYou/WeHelpYou";
+import WeHelpYou from "./WeHelpYou//WeHelpYou";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import { IoArrowUpOutline } from "react-icons/io5";
