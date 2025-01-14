@@ -2,7 +2,7 @@ import "./App.css";
 import Brands from "./Brands/Brands";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
-import Header from "./header/Header";
+import Header from "./header/Header.jsx";
 // import Header from "./header/Header";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
