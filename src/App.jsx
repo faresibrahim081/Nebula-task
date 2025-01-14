@@ -2,8 +2,7 @@ import "./App.css";
 import Brands from "./Brands/Brands";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
-import Header from "./header/Header.jsx";
-// import Header from "./header/Header";
+// import Header from "./header/Header.jsx";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
 import WeHelpYou from "./WeHelpYou//WeHelpYou";
@@ -43,7 +42,7 @@ function App() {
         className="hidden md:block fixed z-20 top-[0] left-[0] w-[60px] h-[60px] rounded-[50%] pointer-events-none bg-mainColor opacity-[0.5]"
         style={{ top: y, left: x }}
       ></div>
-      <Header />
+      {/* <Header /> */}
       <Layout />
       <Brands />
       <WeHelpYou />
