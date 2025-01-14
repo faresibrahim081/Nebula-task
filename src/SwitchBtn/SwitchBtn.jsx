@@ -8,7 +8,7 @@ function SwitchBtn() {
     const nextLanguage = currentLanguage === "en" ? "ar" : "en";
     i18n.changeLanguage(nextLanguage);
   };
-
+  // comment
   return (
     <button
       onClick={toggleLanguage}
