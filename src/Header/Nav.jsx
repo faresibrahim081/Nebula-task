@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import SwitchBtn from "../SwitchBtn/SwitchBtn";
 
-function Header() {
+function Nav() {
   const { t } = useTranslation();
   return (
     <div className="flex text-gray-700  items-center text-lg justify-end py-8 px-12 gap-4">
@@ -14,4 +14,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Nav;
