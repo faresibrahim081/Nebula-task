@@ -6,13 +6,20 @@ import { useTranslation } from "react-i18next";
 
 function WhatWeDo() {
   const { t } = useTranslation();
+  const savedLanguage = localStorage.getItem("language");
   return (
     <div className="w-4/5 mx-auto">
       <HeaderSection title={t("what_we_do")} />
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="flex tiems-center justify-between flex-wrap">
         <div className="relative ">
-          <div className="w-[14rem] h-[14rem] mb-[3rem] rounded-full bg-blue-400 relative">
-            <div className="absolute bottom-[2rem] gap-6 left-[6rem] bg-white flex items-center w-[20rem] py-6 px-8 rounded-xl justify-center shadow-lg">
+          <div
+            className={`w-[14rem] h-[14rem] mb-[3rem] rounded-full bg-blue-400 relative ${
+              savedLanguage === "ar"
+                ? "right-[8rem] md:right-[15rem]"
+                : "left-[5rem]"
+            }`}
+          >
+            <div className="absolute bottom-[2rem] gap-6 left-[2.5rem] md:left-[6rem] bg-white flex items-center w-[20rem] py-6 px-8 rounded-xl justify-center shadow-lg">
               <img
                 loading="lazy"
                 src={img1}
@@ -31,7 +38,13 @@ function WhatWeDo() {
               </div>
             </div>
           </div>
-          <div className="w-[12rem] h-[12rem] rounded-full bg-green-300 relative right-[-15rem]">
+          <div
+            className={`w-[12rem] h-[12rem] rounded-full bg-green-300 relative ${
+              savedLanguage === "ar"
+                ? "right-[-2rem] md:right-[1rem]"
+                : "right-[5rem]"
+            } right-[-12rem] sm:right-[-15rem]`}
+          >
             <div className="absolute bottom-[2rem] gap-6 right-[5rem] bg-white flex flex-row-reverse items-center w-[20rem] py-6 px-8 rounded-xl justify-center shadow-lg">
               <img
                 src={img1}
@@ -51,8 +64,8 @@ function WhatWeDo() {
             </div>
           </div>
         </div>
-        <div className="w-fit">
-          <h1 className="text-[3rem] text-gray-800 text-center md:text-left font-[800] md:w-[50%]">
+        <div className="">
+          <h1 className="text-[3rem] text-gray-800 text-center md:text-left font-[800] md:w-[70%]">
             {t("Increase_Customers_Sales")}
           </h1>
           <p className="text-[#ccc] text-center md:text-left my-8 md:w-[70%]">

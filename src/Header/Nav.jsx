@@ -5,7 +5,6 @@ function Nav() {
   const { t } = useTranslation();
   return (
     <div className="flex text-gray-700  items-center text-lg justify-end py-8 px-12 gap-4">
-      <button className="underline">{t("Get_Started")}</button>
       <SwitchBtn />
       <button className="px-5 py-2 rounded-3xl bg-green-100">
         {t("login")}

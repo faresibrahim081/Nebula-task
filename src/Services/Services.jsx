@@ -36,7 +36,7 @@ function Services() {
                 className="w-full rounded-xl h-[10rem] md:h-[14rem]"
               />
               <div className="p-3">
-                <h2 className="text-xl my-5 font-[700] uppercase text-gray-800">
+                <h2 className="text-xl my-2 md:my-5 font-[700] uppercase text-gray-800">
                   {card.title}
                 </h2>
                 <p className="text-gray-500 capitalize">{card.desc}</p>

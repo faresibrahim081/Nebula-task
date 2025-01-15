@@ -3,8 +3,8 @@ import { MdMessage, MdOutlineMail } from "react-icons/md";
 const Form = () => {
   const { t } = useTranslation();
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full min-w-[27rem] p-8 bg-white rounded-xl shadow-lg">
+    <div className="flex items-center justify-center bg-gray-100">
+      <div className="w-full min-w-[20rem] md:min-w-[29rem] p-8 bg-white rounded-xl shadow-lg">
         <h2 className="text-2xl font-bold text-center mb-6">{t("Write_Us")}</h2>
         <form>
           <div className="mb-4">
@@ -34,7 +34,7 @@ const Form = () => {
               <textarea
                 id="message"
                 placeholder={t("Enter_your_message")}
-                className="w-full h-32 pl-10 pr-4 pt-4 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-purple-400 focus:outline-none"
+                className="w-full h-32 pl-10 pr-4 pt-4 resize-none border rounded-lg bg-gray-50 focus:ring-2 focus:ring-purple-400 focus:outline-none"
               ></textarea>
             </div>
           </div>

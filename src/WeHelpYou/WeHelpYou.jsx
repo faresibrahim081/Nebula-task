@@ -11,7 +11,7 @@ function WeHelpYou() {
     <div className="mb-[20rem]">
       <HeaderSection title={t("we_help_you")} />
       <div className="flex items-center justify-around flex-wrap">
-        <div className="">
+        <div className="md: mt-[7rem]">
           <h1 className="text-[3rem] text-gray-800 text-center md:text-left font-[800] md:w-[50%]">
             {t("Sell_Product")}
           </h1>

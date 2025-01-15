@@ -30,7 +30,7 @@ function Layout() {
           {/* <BoxCard /> */}
         </div>
         <div className="w-[90%] pt-12 md:w-[33%]">
-          <h1 className="text-[2.5rem] text-center md:text-left font-[800]">
+          <h1 className="text-[2.5rem] text-gray-800 text-center md:text-left font-[800]">
             {t("layoutTitle")}
           </h1>
           <SearchInput />

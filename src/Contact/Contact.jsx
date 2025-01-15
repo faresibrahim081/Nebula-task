@@ -8,11 +8,11 @@ function Contact() {
   return (
     <div className="">
       <HeaderSection title={t("contact_us")} />
-      <div className="my-[10rem] flex justify-around items-center flex-wrap">
+      <div className="flex justify-around items-center flex-wrap">
         <Form />
         <div className="relative">
           <svg
-            className="absolute top-[-9rem] md:top-[-28rem] right-[-32rem] md:right-[-30rem] z-[-10] h-[65rem] md:h-[90rem] w-[80rem] -rotate-[30deg] "
+            className="absolute top-[-5rem] md:top-[-15rem] right-[-27rem] md:right-[-30rem] z-[-10] h-[50rem] md:h-[70rem] w-[70rem] -rotate-[30deg] "
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
           >
